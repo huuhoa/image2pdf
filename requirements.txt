@@ -1,0 +1,4 @@
+img2pdf==0.4.0
+lxml==4.5.2
+pikepdf==1.17.3
+Pillow==7.2.0
