@@ -68,8 +68,8 @@ def removedirs(path):
 if __name__ == '__main__':
     import argparse
     parser = argparse.ArgumentParser()
-    parser.add_argument('input', type=str)
-    parser.add_argument('output', type=str)
+    parser.add_argument('input', type=str, help='input folder contains all images')
+    parser.add_argument('output', type=str, help='output pdf file')
     args = parser.parse_args()
     book_name = args.output
     working_dir = args.input
